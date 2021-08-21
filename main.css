@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face {
   font-family: "Graphik";
-  src: url(read.cv/static/media/Graphik-Regular-Cy-Gr-Web.89bcdd78.woff2) format("woff2"), url(/static/media/Graphik-Regular-Cy-Gr-Web.90e3efff.woff) format("woff");
+  src: url(https://read.cv/static/media/Graphik-Regular-Cy-Gr-Web.89bcdd78.woff2) format("woff2"), url(https://read.cv/static/media/Graphik-Regular-Cy-Gr-Web.90e3efff.woff) format("woff");
   font-weight: 400;
   font-style: normal;
   font-stretch: normal;
@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: "Graphik";
-  src: url(read.cv/static/media/Graphik-Medium-Cy-Gr-Web.8eb7d651.woff2) format("woff2"), url(/static/media/Graphik-Medium-Cy-Gr-Web.4600902d.woff) format("woff");
+  src: url(https://read.cv/static/media/Graphik-Medium-Cy-Gr-Web.8eb7d651.woff2) format("woff2"), url(https://read.cv/static/media/Graphik-Medium-Cy-Gr-Web.4600902d.woff) format("woff");
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
