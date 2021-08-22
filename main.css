@@ -290,6 +290,7 @@ h3 + .contact {
 
 .right {
   position: relative;
+  top: -16px;
   left: calc(50% + 8px);
   width: calc(50% + 8px);
   display: -webkit-box;
