@@ -290,8 +290,8 @@ h3 + .contact {
 
 .right {
   position: relative;
-  left: calc(50% + 24px);
-  width: calc(50% - 24px);
+  left: calc(50% + 8px);
+  width: calc(50% + 8px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -304,8 +304,9 @@ h3 + .contact {
 
 @media screen and (max-width: 800px) {
   .right {
-    position: static;
-    width: 100%;
+    position: absolute;
+    width: calc(100% - 16px);
+    left: 8px;
   }
 }
 
