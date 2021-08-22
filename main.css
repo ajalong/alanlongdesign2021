@@ -311,7 +311,7 @@ h3 + .contact {
 
 .item {
   width: 100%;
-  padding: 16px 16px 38px;
+  padding: 16px 16px 24px;
   border-radius: 28px;
   -webkit-transition: all 0.2s ease-out 0s;
   transition: all 0.2s ease-out 0s;
