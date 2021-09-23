@@ -42,7 +42,7 @@
 }
 
 body {
-  background-color: #eae9eb;
+  background-color: #fff;
   font-family: "Graphik",sans-serif;
   font-size: 14px;
   font-size: var(--type-size);
@@ -276,6 +276,9 @@ header h2, header p {
 
 .media-full, .media-half > div {
   margin-bottom: 24px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
 }
 
 .media-full img, .media-full video, .media-half > div img, .media-half > div video {
@@ -293,10 +296,11 @@ header h2, header p {
 
 @media screen and (min-width: 799px) {
   .media-half {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: -ms-grid;
+    display: grid;
     gap: 20px;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
   }
 }
 
