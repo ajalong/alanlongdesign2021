@@ -41,7 +41,7 @@
 }
 
 body {
-    background-color: #eae9eb;
+    background-color: #fff;
     font-family: "Graphik",sans-serif;
     font-size: 14px;
     font-size: var(--type-size);
@@ -248,6 +248,7 @@ header {
 //media
 .media-full, .media-half > div {
     margin-bottom: 24px;
+    flex: 0 0 50%;
 
     img, video {
         width: 100%;
@@ -264,8 +265,9 @@ header {
 
 .media-half {
     @media screen and (min-width: 799px) {
-        display: flex;
+        display: grid;
         gap: 20px;
+        grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -346,7 +348,7 @@ header {
 }
 
 #page-permalink-footer .pages-thumbnail img {
-    border-radius: 2px;
+    border-radius: 4px;
     width: 100%;
 }
 
